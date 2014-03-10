@@ -42,11 +42,18 @@ Run `xcdevices -u` ![xcdevices -u](images/xcdevices_3.png)
 
 ### Installing
 
+#### Manually
+
 1. Install [__Go__](http://golang.org).
 2. Compile by running `go build xcdevices.go`.
 3. Copy the `xcdevices` binary to a folder in your `PATH`.
 
-An option for installing via __Homebrew__ will be available soon.
+#### Homebrew
+
+```
+brew tap neilco/formulae
+brew install xcdevices
+```
 
 ### Contact
 
